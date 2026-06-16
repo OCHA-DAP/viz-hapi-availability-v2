@@ -28,6 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
+      env:
+        VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
+        VITE_APP_IDENTIFIER: ${{ secrets.VITE_APP_IDENTIFIER }}
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
