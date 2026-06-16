@@ -1,46 +1,14 @@
 <script>
   import { onMount } from 'svelte';
+  import { sandboxBaseURL, sandboxURL } from '../config.js';
 
-  let tableWrapper, table, tableCells, tooltip;
-  const hoverColor = '#FEF1EF';
+  let table, highlightedCells = [];
 
   export let categories;
   export let currentTableData;
 
-  categories = {
-    'Affected People': ['Humanitarian Needs', 'Internally-Displaced Persons', 'Refugees & Persons of Concern', 'Returnees'],
-    'Climate': ['Rainfall'],
-    'Coordination & Context': ['Conflict Events', 'Funding', 'National Risk', 'Who Is Doing What Where - Operational Presence'],
-    'Food Security, Nutrition & Poverty': ['Food Prices', 'Food Security', 'Poverty Rate'],
-    'Geography & Infrastructure': ['Baseline Population']
-  };
-
-  const sandboxBaseURL = 'https://hapi.humdata.org/docs#';
-  const sandboxURL = {
-    'Humanitarian Needs': `${sandboxBaseURL}/Affected%20People/get_humanitarian_needs_api_v2_affected_people_humanitarian_needs_get`,
-    'Internally-Displaced Persons': `${sandboxBaseURL}/Affected%20People/get_idps_api_v2_affected_people_idps_get`,
-    'Refugees & Persons of Concern': `${sandboxBaseURL}/Affected%20People/get_refugees_api_v2_affected_people_refugees_persons_of_concern_get`,
-    'Returnees': `${sandboxBaseURL}/Affected%20People/get_returnees_api_v2_affected_people_returnees_get`,
-    'Conflict Events': `${sandboxBaseURL}/Coordination%20&%20Context/get_conflict_event_api_v2_coordination_context_conflict_events_get`,
-    'Funding': `${sandboxBaseURL}/Coordination%20&%20Context/get_funding_api_v2_coordination_context_funding_get`,
-    'National Risk': `${sandboxBaseURL}/Coordination%20&%20Context/get_national_risk_api_v2_coordination_context_national_risk_get`,
-    'Who Is Doing What Where - Operational Presence': `${sandboxBaseURL}/Coordination%20&%20Context/get_operational_presence_api_v2_coordination_context_operational_presence_get`,
-    'Food Prices': `${sandboxBaseURL}/Food%20Security,%20Nutrition%20&%20Poverty/get_food_price_api_v2_food_security_nutrition_poverty_food_prices_market_monitor_get`,
-    'Food Security': `${sandboxBaseURL}/Food%20Security,%20Nutrition%20&%20Poverty/get_food_security_api_v2_food_security_nutrition_poverty_food_security_get`,
-    'Poverty Rate': `${sandboxBaseURL}/Food%20Security,%20Nutrition%20&%20Poverty/get_poverty_rate_api_v2_food_security_nutrition_poverty_poverty_rate_get`,
-    'Baseline Population': `${sandboxBaseURL}/Geography%20&%20Infrastructure/get_population_api_v2_geography_infrastructure_baseline_population_get`,
-    'Rainfall': `${sandboxBaseURL}/Climate/get_rainfall_api_v2_climate_rainfall_get`
-  }
-
   function onMouseover(e) {
-    const cell = event.target;
-    if (cell.classList.contains('cell') && !cell.classList.contains('fixed-col') && cell.tagName !== 'TH') {
-      highlightCells(cell);
-      //showTooltip(cell);
-    }
-    else {
-      //hideTooltip();
-    }
+    highlightCells(e.currentTarget);
   }
 
   function onMouseout() {
@@ -48,85 +16,45 @@
   }
 
   function highlightCells(cell) {
-    // highlight hovered cell and cells to left and above
-    tableCells = document.querySelectorAll('#coverageTable td, #coverageTable th');
     const row = cell.parentElement;
+    const colIndex = cell.cellIndex;
+    const rowIndex = row.rowIndex;
 
-    // get current cell position
-    const rowIndex = Array.from(table.rows).indexOf(row);
-    const cellIndex = Array.from(row.cells).indexOf(cell);
+    highlightedCells = [];
 
-    // highlight cells above current cell in same column
+    // highlight cells above in same column (skip category header row at index 0)
     for (let i = 1; i <= rowIndex; i++) {
-      table.rows[i].cells[cellIndex].style.backgroundColor = hoverColor;
+      const c = table.rows[i].cells[colIndex];
+      c.classList.add('highlighted');
+      highlightedCells.push(c);
     }
 
-    // highlight cells to the left in same row
-    for (let i=0; i <=cellIndex; i++) {
-      row.cells[i].style.backgroundColor = hoverColor;
+    // highlight cells to the left in same row (including current cell)
+    for (let i = 0; i <= colIndex; i++) {
+      const c = row.cells[i];
+      c.classList.add('highlighted');
+      highlightedCells.push(c);
     }
   }
 
   function resetCells() {
-    tableCells.forEach(cell => {
-      cell.style.backgroundColor = '';
-    });
+    highlightedCells.forEach(c => c.classList.remove('highlighted'));
+    highlightedCells = [];
   }
 
-  function showTooltip(cell) {
-    // get dimensions of hovered cell and parent table
-    const tableRect = table.getBoundingClientRect();
-    const rect = cell.getBoundingClientRect();
-
-    // get position of hovered cell and parent table
-    const xPos = rect.left - tableRect.left + rect.width - 50;
-    const yPos = rect.top - tableRect.top - 15;
-
-    tooltip.style.opacity = 1;
-    tooltip.style.left = xPos + 'px';
-    tooltip.style.top = yPos + 'px';
-
-    tooltip.innerHTML = 'Administrative boundaries: <b>0–2</b><br>';
-    tooltip.innerHTML += 'Data provider: <b>OCHA HPC</b><br>';
-    tooltip.innerHTML += 'Date range: <b>Jan 1, 2024–Dec 31, 2024</b><br>';
-    tooltip.innerHTML += 'Update frequency: <b>Anually</b><br>';
+  function setTableHeight(el) {
+    const yPos = el.getBoundingClientRect().top;
+    el.style.height = `${window.innerHeight - yPos}px`;
   }
 
-  function hideTooltip() {
-    tooltip.style.opacity = 0;
-  }
-
-  function setTableHeight(table) {
-    const yPos = table.getBoundingClientRect().top;
-    const availHeight = window.innerHeight - yPos;
-    table.style.height = `${availHeight}px`;
-  }
-
-  function formatStr(str) {
-    return str
-      .split('-')
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ');
-  }
-
-  onMount(async () => {
-    // remove loader
+  onMount(() => {
     let loader = document.querySelector('.loader');
     if (loader) loader.remove();
 
     table = document.getElementById('coverageTable');
 
-    // set table height equal to available screen height
-    tableWrapper = document.querySelector('.table-wrapper');
+    const tableWrapper = document.querySelector('.table-wrapper');
     setTableHeight(tableWrapper);
-
-    // create tooltip
-    tooltip = document.querySelector('.tooltip');
-
-    // add event listener for the scroll event
-    // tableWrapper.addEventListener('scroll', (event) => {
-    //   tooltip.style.opacity = 0;
-    // });
   });
 </script>
 
@@ -164,7 +92,7 @@
                     <div><i class='no-data'></i></div>
                   {:else}
                     <div class={`admin-icon national ${hasData.admin0 ? '' : 'hide'}`}>0</div>
-                    <div class={`admin-icon subnational1 ${hasData.admin1 ? '' : 'hide'}`}>1</div> 
+                    <div class={`admin-icon subnational1 ${hasData.admin1 ? '' : 'hide'}`}>1</div>
                     <div class={`admin-icon subnational2 ${hasData.admin2 ? '' : 'hide'}`}>2</div>
                   {/if}
                 </div>
@@ -174,11 +102,7 @@
         {/each}
       </tbody>
     </table>
-    
-    <div class='tooltip'>tooltip here</div>
   </div>
-
-  <!-- <div class='gradient-overlay'></div> -->
 </div>
 
 
@@ -273,42 +197,7 @@
     z-index: 1;
   }
 
-  .gradient-overlay {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    bottom: 0;
-    right: 15px;
-    top: 0;
-    pointer-events: none;
-    position: absolute;
-    width: 100px;
-  }
-
-  .tooltip {
-    background-color: #FFF;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,.3);
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    left: 0;
-    line-height: 18px;
-    padding: 8px 12px;
-    pointer-events: none;
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    width: auto;
-    white-space: nowrap;
-    z-index: 4;
-    &::before {
-      border-width: 8px;
-      border-style: solid;
-      border-color: transparent #FFF transparent transparent;
-      content: '';
-      margin-top: -8px;
-      position: absolute;
-      right: 100%;
-      top: 50%;
-    }
+  :global(.highlighted) {
+    background-color: #FEF1EF;
   }
 </style>

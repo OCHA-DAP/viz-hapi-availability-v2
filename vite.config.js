@@ -10,5 +10,12 @@ export default defineConfig({
     alias: {
       "$components": path.resolve("./src/components")
     }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern'
+      }
+    }
   }
 })
