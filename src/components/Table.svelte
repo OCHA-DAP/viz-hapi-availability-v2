@@ -127,7 +127,7 @@
   }
 
   th, td {
-    border-right: 1px solid #E6E9F5;
+    border-right: 1px solid var(--hdx-neutral-1);
     line-height: 16px;
     padding: 8px 12px;
     &:last-child {
@@ -136,14 +136,14 @@
   }
 
   td {
-    border-top: 1px solid #E6E9F5;
+    border-top: 1px solid var(--hdx-neutral-1);
   }
 
   thead th {
-    background-color: #FFF;
-    font-family: 'Gotham-Bold';
+    background-color: var(--hdx-neutral-0);
+    font-family: var(--hdx-font-body);
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 16px;
     position: sticky;
     padding: 10px 12px;
@@ -152,18 +152,18 @@
 
   th span {
     display: block;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: var(--hdx-font-body);
     font-size: 14px;
     font-weight: 400;
     padding: 4px 0;
   }
 
   th.category {
-    background-color: #EEE;
-    border: 1px solid #FFF;
+    background-color: var(--hdx-neutral-1);
+    border: 1px solid var(--hdx-neutral-0);
     top: 0;
     &:nth-child(1) {
-      background-color: #FFF;
+      background-color: var(--hdx-neutral-0);
     }
     &:nth-child(2) {
       border-left: 0;
@@ -172,10 +172,10 @@
 
   th.fixed-col.category,
   .fixed-col {
-    background-color: #FFF;
-    font-family: 'Gotham-Bold';
+    background-color: var(--hdx-neutral-0);
+    font-family: var(--hdx-font-body);
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 18px;
     left: 0;
     position: -webkit-sticky;
@@ -198,6 +198,6 @@
   }
 
   :global(.highlighted) {
-    background-color: #FEF1EF;
+    background-color: var(--hdx-error-05);
   }
 </style>

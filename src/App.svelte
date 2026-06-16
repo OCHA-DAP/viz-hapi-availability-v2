@@ -189,7 +189,7 @@
 
 <main>
   <div class='header'>
-    <h1>Data Availability in HDX HAPI</h1>
+    <h1>Data Availability</h1>
     <p>The initial release of HDX HAPI in June 2024 followed the <a href='https://data.humdata.org/dashboards/overview-of-data-grids' target='_blank'>HDX Data Grids</a>, which brings together the most relevant crisis data across 20+ priority humanitarian operations. As of November 2024, geographic coverage has been expanded to include all countries where data is available. The level of disaggregation varies by data type and country.</p>
     <p>A live list of HDX HAPI data providers is available here: <a href='https://tinyurl.com/hapi-provider-list' target='_blank'>https://tinyurl.com/hapi-provider-list</a>.</p>
     <p>This table below displays the available data by administrative level for each subcategory and country included in HDX HAPI. Refer to the <a href='https://hdx-hapi.readthedocs.io/en/latest/' target='_blank'>documentation</a> for more detailed information about each of the subcategories. <a href='mailto:hdx@un.org'>Contact us</a> to request additional data types in future versions of HDX HAPI.</p>
@@ -226,20 +226,23 @@
   {/if}
 
   <div class='loader'>
-    <div class="sp sp-circle"></div>
-    <span>Loading data...</span>
+    <div class="loader-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </div>
 
 </main>
 
 <style>
   .header {
-    margin: 0 auto 30px;
-    text-align: center;
-    width: 75%;
+    margin-bottom: 48px;
+    text-align: left;
+    width: 80%;
   }
   .header p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
   }
   .subheader {
@@ -254,12 +257,19 @@
   }
   .select-group {
     display: flex;
-    --border: 1px solid #CCC;
-    --border-focused: 1px solid #007CE0;
-    --border-hover: 1px solid #007CE0;
+    --font: var(--hdx-font-body);
+    --font-size: 14px;
+    --color: var(--hdx-neutral-8);
+    --placeholder-color: var(--hdx-neutral-8);
+    --background: var(--hdx-neutral-0);
+    --border: 1px solid var(--hdx-neutral-2);
+    --border-focused: 1px solid var(--hdx-primary-5);
+    --border-hover: 1px solid var(--hdx-primary-5);
+    --border-radius: var(--hdx-radius-sm);
+    --box-shadow: var(--hdx-shadow-sm);
     --margin: 5px 10px 0 0;
-    --item-hover-bg: #CCE5F9;
-    --list-border: 1px solid #EEE;
+    --item-hover-bg: var(--hdx-primary-1);
+    --list-border: 1px solid var(--hdx-neutral-1);
   }
   .select-wrapper > div .svelte-select {
     margin-right: 10px;
