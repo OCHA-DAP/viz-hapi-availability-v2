@@ -11,6 +11,7 @@
   const app_identifier = import.meta.env.VITE_APP_IDENTIFIER || 'aGFwaS1kYXNoYm9hcmQ6ZXJpa2Eud2VpQHVuLm9yZw==';
 
   const CACHE_KEY = 'hapi-availability-data-v2';
+  const COUNTRY_CACHE_KEY = 'hapi-availability-countries-v1';
   const CACHE_TTL = 30 * 60 * 1000;
 
   // derive ordered subcategory slugs from the canonical categories definition
@@ -28,15 +29,44 @@
   let currentTableData = {};
   let selectValue = null;
 
+  const RETRY_ATTEMPTS = 3;
+  const RETRY_DELAY = 1000;
+
+  async function fetchWithRetry(url, attempts = RETRY_ATTEMPTS) {
+    for (let i = 0; i < attempts; i++) {
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response;
+      } catch (error) {
+        if (i === attempts - 1) throw error;
+        await new Promise(resolve => setTimeout(resolve, RETRY_DELAY * 2 ** i));
+      }
+    }
+    throw new Error('fetchWithRetry: exhausted retries');
+  }
 
   async function fetchCountryData() {
+    try {
+      const cached = sessionStorage.getItem(COUNTRY_CACHE_KEY);
+      if (cached) {
+        const { timestamp, data } = JSON.parse(cached);
+        if (Date.now() - timestamp < CACHE_TTL && Array.isArray(data)) return data;
+      }
+    } catch (_) {}
+
     const url = `${base_url}/metadata/location?app_identifier=${app_identifier}&offset=0&output_format=csv&limit=10000`;
     try {
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const response = await fetchWithRetry(url);
       const csvText = await response.text();
       const parsedData = Papa.parse(csvText, { header: true, skipEmptyLines: true, dynamicTyping: true });
-      return parsedData.data.filter(row => row.has_hrp === 'True').map(row => row.code);
+      const hrpCodes = parsedData.data.filter(row => row.has_hrp === 'True').map(row => row.code);
+
+      try {
+        sessionStorage.setItem(COUNTRY_CACHE_KEY, JSON.stringify({ timestamp: Date.now(), data: hrpCodes }));
+      } catch (_) {}
+
+      return hrpCodes;
     } catch (error) {
       console.error('Error fetching country data:', error);
       return [];
@@ -71,8 +101,7 @@
   }
 
   async function fetchTablePageData(endpoint) {
-    const response = await fetch(endpoint);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const response = await fetchWithRetry(endpoint);
     const text = await response.text();
     return new Promise((resolve, reject) => {
       Papa.parse(text, {
