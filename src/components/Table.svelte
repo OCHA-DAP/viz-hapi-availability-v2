@@ -198,6 +198,6 @@
   }
 
   :global(.highlighted) {
-    background-color: var(--hdx-error-05);
+    background-color: var(--hdx-brand-1);
   }
 </style>
