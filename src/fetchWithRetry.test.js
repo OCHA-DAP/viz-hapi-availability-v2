@@ -5,7 +5,7 @@ import { fetchTextWithRetry } from './fetchWithRetry.js';
 // need to honor that or AbortController-based timeouts never actually resolve
 function neverSettlingFetch() {
   return (url, options) => new Promise((resolve, reject) => {
-    options.signal.addEventListener('abort', () => reject(new DOMException('Aborted', 'AbortError')));
+    options.signal.addEventListener('abort', () => reject(new Error('AbortError')));
   });
 }
 
@@ -51,7 +51,7 @@ describe('fetchTextWithRetry', () => {
       .mockImplementationOnce((url, options) => Promise.resolve({
         ok: true,
         text: () => new Promise((resolve, reject) => {
-          options.signal.addEventListener('abort', () => reject(new DOMException('Aborted', 'AbortError')));
+          options.signal.addEventListener('abort', () => reject(new Error('AbortError')));
         })
       }))
       .mockResolvedValueOnce({ ok: true, text: () => Promise.resolve('ok-after-stall') });
