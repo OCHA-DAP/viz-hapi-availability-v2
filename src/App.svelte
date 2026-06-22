@@ -6,6 +6,7 @@
   import Legend from './components/Legend.svelte';
   import Table from './components/Table.svelte';
   import { subcategoryLabels, categories } from './config.js';
+  import { fetchTextWithRetry } from './fetchWithRetry.js';
 
   const base_url = import.meta.env.VITE_BASE_URL || 'https://hapi.humdata.org/api/v2';
   const app_identifier = import.meta.env.VITE_APP_IDENTIFIER || 'aGFwaS1kYXNoYm9hcmQ6ZXJpa2Eud2VpQHVuLm9yZw==';
@@ -28,23 +29,7 @@
   let selectPlaceholder = 'All Priority Humanitarian Countries';
   let currentTableData = {};
   let selectValue = null;
-
-  const RETRY_ATTEMPTS = 3;
-  const RETRY_DELAY = 1000;
-
-  async function fetchWithRetry(url, attempts = RETRY_ATTEMPTS) {
-    for (let i = 0; i < attempts; i++) {
-      try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        return response;
-      } catch (error) {
-        if (i === attempts - 1) throw error;
-        await new Promise(resolve => setTimeout(resolve, RETRY_DELAY * 2 ** i));
-      }
-    }
-    throw new Error('fetchWithRetry: exhausted retries');
-  }
+  let loadError = false;
 
   async function fetchCountryData() {
     try {
@@ -57,8 +42,7 @@
 
     const url = `${base_url}/metadata/location?app_identifier=${app_identifier}&offset=0&output_format=csv&limit=10000`;
     try {
-      const response = await fetchWithRetry(url);
-      const csvText = await response.text();
+      const csvText = await fetchTextWithRetry(url);
       const parsedData = Papa.parse(csvText, { header: true, skipEmptyLines: true, dynamicTyping: true });
       const hrpCodes = parsedData.data.filter(row => row.has_hrp === 'True').map(row => row.code);
 
@@ -101,8 +85,7 @@
   }
 
   async function fetchTablePageData(endpoint) {
-    const response = await fetchWithRetry(endpoint);
-    const text = await response.text();
+    const text = await fetchTextWithRetry(endpoint);
     return new Promise((resolve, reject) => {
       Papa.parse(text, {
         header: true,
@@ -209,6 +192,7 @@
       initTracking();
     } catch (error) {
       console.error('Failed to load data:', error);
+      loadError = true;
       const loader = document.querySelector('.loader');
       if (loader) loader.remove();
     }
@@ -254,6 +238,10 @@
     <Table {categories} {currentTableData} />
   {/if}
 
+  {#if loadError}
+    <p class='load-error'>Unable to load data availability. Please refresh the page to try again.</p>
+  {/if}
+
   <div class='loader'>
     <div class="loader-dots">
       <span></span>
@@ -277,6 +265,10 @@
   .subheader {
     display: flex;
     justify-content: space-between;
+  }
+  .load-error {
+    color: var(--hdx-negative-6, #c0392b);
+    font-size: 16px;
   }
   .select-wrapper {
     margin-bottom: 30px;
