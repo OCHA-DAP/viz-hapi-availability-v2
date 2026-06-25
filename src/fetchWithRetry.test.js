@@ -73,7 +73,21 @@ describe('fetchTextWithRetry', () => {
     await expectation;
   });
 
-  it('does not retry on a non-2xx response and rejects immediately with the HTTP error', async () => {
+  it('retries on a 202 Accepted response until the server returns real data', async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce({ ok: true, status: 202 })
+      .mockResolvedValueOnce({ ok: true, status: 202 })
+      .mockResolvedValueOnce({ ok: true, text: () => Promise.resolve('csv-body') });
+    vi.stubGlobal('fetch', fetchMock);
+
+    const promise = fetchTextWithRetry('http://example.test', { attempts: 6, timeout: 100, retryDelay: 10 });
+    await vi.runAllTimersAsync();
+
+    expect(await promise).toBe('csv-body');
+    expect(fetchMock).toHaveBeenCalledTimes(3);
+  });
+
+  it('retries on a non-2xx response and rejects once attempts are exhausted', async () => {
     const fetchMock = vi.fn().mockResolvedValue({ ok: false, status: 500 });
     vi.stubGlobal('fetch', fetchMock);
 

@@ -86,13 +86,7 @@
 
   async function fetchTablePageData(endpoint) {
     const text = await fetchTextWithRetry(endpoint);
-    return new Promise((resolve, reject) => {
-      Papa.parse(text, {
-        header: true,
-        complete: results => resolve(results.data),
-        error: err => reject(err)
-      });
-    });
+    return Papa.parse(text, { header: true, skipEmptyLines: true }).data;
   }
 
   function getCountries(data) {
@@ -120,9 +114,11 @@
         });
       }
 
-      if (row.admin_level === '0') adminLevels[location_name][subcategory].admin0 = true;
-      else if (row.admin_level === '1') adminLevels[location_name][subcategory].admin1 = true;
-      else if (row.admin_level === '2') adminLevels[location_name][subcategory].admin2 = true;
+      const slot = adminLevels[location_name][subcategory];
+      if (!slot) return;
+      if (row.admin_level === '0') slot.admin0 = true;
+      else if (row.admin_level === '1') slot.admin1 = true;
+      else if (row.admin_level === '2') slot.admin2 = true;
     });
 
     return Object.keys(adminLevels)
