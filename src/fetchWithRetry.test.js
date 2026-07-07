@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { fetchTextWithRetry } from './fetchWithRetry.js';
+import { fetchTextWithRetry, fetchTextWithPolling } from './fetchWithRetry.js';
 
 // real fetch() rejects with an AbortError when its signal is aborted -- mocks
 // need to honor that or AbortController-based timeouts never actually resolve
@@ -73,6 +73,28 @@ describe('fetchTextWithRetry', () => {
     await expectation;
   });
 
+  it('retries on a non-2xx response and rejects once attempts are exhausted', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: false, status: 500 });
+    vi.stubGlobal('fetch', fetchMock);
+
+    const promise = fetchTextWithRetry('http://example.test', { attempts: 3, timeout: 100, retryDelay: 10 });
+    const expectation = expect(promise).rejects.toThrow('HTTP 500');
+    await vi.runAllTimersAsync();
+    await expectation;
+    expect(fetchMock).toHaveBeenCalledTimes(3);
+  });
+});
+
+describe('fetchTextWithPolling', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+    vi.unstubAllGlobals();
+  });
+
   it('retries on a 202 Accepted response until the server returns real data', async () => {
     const fetchMock = vi.fn()
       .mockResolvedValueOnce({ ok: true, status: 202 })
@@ -80,18 +102,28 @@ describe('fetchTextWithRetry', () => {
       .mockResolvedValueOnce({ ok: true, text: () => Promise.resolve('csv-body') });
     vi.stubGlobal('fetch', fetchMock);
 
-    const promise = fetchTextWithRetry('http://example.test', { attempts: 6, timeout: 100, retryDelay: 10 });
+    const promise = fetchTextWithPolling('http://example.test', { pendingAttempts: 6, timeout: 100, retryDelay: 10 });
     await vi.runAllTimersAsync();
 
     expect(await promise).toBe('csv-body');
     expect(fetchMock).toHaveBeenCalledTimes(3);
   });
 
+  it('rejects with HTTP 202 once the pending budget is exhausted, independent of the error-retry attempts', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, status: 202 }));
+
+    const promise = fetchTextWithPolling('http://example.test', { attempts: 3, pendingAttempts: 4, timeout: 100, retryDelay: 10 });
+    const expectation = expect(promise).rejects.toThrow('HTTP 202');
+    await vi.runAllTimersAsync();
+    await expectation;
+    expect(fetch).toHaveBeenCalledTimes(4);
+  });
+
   it('retries on a non-2xx response and rejects once attempts are exhausted', async () => {
     const fetchMock = vi.fn().mockResolvedValue({ ok: false, status: 500 });
     vi.stubGlobal('fetch', fetchMock);
 
-    const promise = fetchTextWithRetry('http://example.test', { attempts: 3, timeout: 100, retryDelay: 10 });
+    const promise = fetchTextWithPolling('http://example.test', { attempts: 3, timeout: 100, retryDelay: 10 });
     const expectation = expect(promise).rejects.toThrow('HTTP 500');
     await vi.runAllTimersAsync();
     await expectation;

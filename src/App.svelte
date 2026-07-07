@@ -8,12 +8,9 @@
   import { subcategoryLabels, categories } from './config.js';
   import { fetchTextWithRetry } from './fetchWithRetry.js';
 
-  const base_url = import.meta.env.VITE_BASE_URL || 'https://hapi.humdata.org/api/v2';
-  const app_identifier = import.meta.env.VITE_APP_IDENTIFIER || 'aGFwaS1kYXNoYm9hcmQ6ZXJpa2Eud2VpQHVuLm9yZw==';
-
   const CACHE_KEY = 'hapi-availability-data-v2';
   const COUNTRY_CACHE_KEY = 'hapi-availability-countries-v1';
-  const CACHE_TTL = 30 * 60 * 1000;
+  const CACHE_TTL = 60 * 60 * 1000;
 
   // derive ordered subcategory slugs from the canonical categories definition
   const displayToSlug = Object.fromEntries(
@@ -40,9 +37,8 @@
       }
     } catch (_) {}
 
-    const url = `${base_url}/metadata/location?app_identifier=${app_identifier}&offset=0&output_format=csv&limit=10000`;
     try {
-      const csvText = await fetchTextWithRetry(url);
+      const csvText = await fetchTextWithRetry('./data/location.csv');
       const parsedData = Papa.parse(csvText, { header: true, skipEmptyLines: true, dynamicTyping: true });
       const hrpCodes = parsedData.data.filter(row => row.has_hrp === 'True').map(row => row.code);
 
@@ -66,27 +62,14 @@
       }
     } catch (_) {}
 
-    let data = [];
-    let offset = 0;
-    let fetchedData;
-
-    do {
-      const endpoint = `${base_url}/metadata/data-availability?output_format=csv&app_identifier=${app_identifier}&offset=${offset}&limit=10000`;
-      fetchedData = await fetchTablePageData(endpoint);
-      data.push(...fetchedData);
-      offset += 10000;
-    } while (fetchedData.length >= 10000);
+    const text = await fetchTextWithRetry('./data/data-availability.csv');
+    const data = Papa.parse(text, { header: true, skipEmptyLines: true }).data;
 
     try {
       sessionStorage.setItem(CACHE_KEY, JSON.stringify({ timestamp: Date.now(), data }));
     } catch (_) {}
 
     return data;
-  }
-
-  async function fetchTablePageData(endpoint) {
-    const text = await fetchTextWithRetry(endpoint);
-    return Papa.parse(text, { header: true, skipEmptyLines: true }).data;
   }
 
   function getCountries(data) {

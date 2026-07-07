@@ -2,6 +2,12 @@
 
 A Svelte + Vite dashboard that shows data availability across the [HDX Humanitarian API (HAPI)](https://hapi.humdata.org/), broken down by country, category/subcategory, and administrative level (admin0/1/2). Users can filter the table to HRP (Humanitarian Response Plan) priority countries or select specific countries to compare.
 
+## How it works
+
+`scripts/fetch-data.js` fetches two CSVs from HAPI's `metadata` API (`location` and `data-availability`) and writes them to `public/data/`. The app reads those static CSVs at runtime, parses them with PapaParse, and caches the result in `sessionStorage` for 1 hour. The table groups data by category/subcategory (defined in `src/config.js`) and renders a checkmark grid showing which admin levels are available per country.
+
+The fetch script runs in CI on every push and on a daily schedule (`.github/workflows/node.js.yml`), so the deployed data is refreshed at least once a day.
+
 ## Requirements
 
 - Node.js 16+
@@ -20,36 +26,33 @@ A Svelte + Vite dashboard that shows data availability across the [HDX Humanitar
    ```
    `VITE_APP_IDENTIFIER` is a base64-encoded `app:email` identifier issued by HAPI.
 
-## Development
+## Commands
+
+```
+npm run fetch-data
+```
+Fetches the latest CSVs from HAPI into `public/data/`.
 
 ```
 npm run dev
 ```
-
 Starts a local dev server (default `http://localhost:5173`) with hot module reload.
 
-## Build
+```
+npm run test
+```
+Runs the test suite.
 
 ```
 npm run build
 ```
-
 Builds the production bundle into `dist/`.
 
 ```
 npm run preview
 ```
-
 Serves the built `dist/` bundle locally to sanity-check a production build.
 
 ## Deployment
 
-Pushes to `main` trigger `.github/workflows/node.js.yml`, which builds the app and deploys `dist/` to GitHub Pages via `peaceiris/actions-gh-pages`.
-
-## How it works
-
-On load, the app fetches two CSV datasets from the HAPI `metadata` endpoints:
-- `metadata/location` — country list, used to determine which countries are HRP priority countries
-- `metadata/data-availability` — per-country, per-subcategory, per-admin-level availability data
-
-Both responses are parsed with PapaParse and cached in `sessionStorage` for 30 minutes to avoid redundant fetches, with automatic retry (up to 3 attempts, exponential backoff) on request failures. The table groups data by category/subcategory (defined in `src/config.js`) and renders a checkmark grid showing which admin levels are available per country.
+Pushes to `main`, a daily schedule, and manual workflow runs all trigger `.github/workflows/node.js.yml`, which fetches fresh data, builds the app, and deploys `dist/` to GitHub Pages via `peaceiris/actions-gh-pages`.
