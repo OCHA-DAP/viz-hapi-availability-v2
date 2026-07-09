@@ -22,8 +22,8 @@
 
     highlightedCells = [];
 
-    // highlight cells above in same column (skip category header row at index 0)
-    for (let i = 1; i <= rowIndex; i++) {
+    // highlight cells above in same column (skip both header rows, at index 0 and 1)
+    for (let i = 2; i <= rowIndex; i++) {
       const c = table.rows[i].cells[colIndex];
       c.classList.add('highlighted');
       highlightedCells.push(c);
@@ -47,6 +47,15 @@
     el.style.height = `${window.innerHeight - yPos}px`;
   }
 
+  function setHeaderRowOffset() {
+    const categoryRow = table.querySelector('thead tr:first-child');
+    const subcategoryRow = table.querySelector('thead tr:last-child');
+    const offset = `${categoryRow.offsetHeight}px`;
+    for (const th of subcategoryRow.cells) {
+      th.style.top = offset;
+    }
+  }
+
   onMount(() => {
     let loader = document.querySelector('.loader');
     if (loader) loader.remove();
@@ -55,6 +64,12 @@
 
     const tableWrapper = document.querySelector('.table-wrapper');
     setTableHeight(tableWrapper);
+
+    setHeaderRowOffset();
+    const resizeObserver = new ResizeObserver(setHeaderRowOffset);
+    resizeObserver.observe(table.querySelector('thead tr:first-child'));
+
+    return () => resizeObserver.disconnect();
   });
 </script>
 
