@@ -196,12 +196,12 @@
     position: -webkit-sticky;
     position: sticky;
     text-transform: uppercase;
-    width: 250px;
+    width: 200px;
     z-index: 3;
   }
   .fixed-col .country {
     padding: 10px 12px;
-    width: 250px;
+    width: 200px;
   }
 
   thead .fixed-col {
