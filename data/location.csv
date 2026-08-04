@@ -153,7 +153,7 @@ id,code,name,has_hrp,in_gho,from_cods,reference_period_start,reference_period_en
 152,MOZ,Mozambique,True,True,True,1974-01-01 00:00:00,
 153,MMR,Myanmar,True,True,True,2011-06-12 00:00:00,
 154,NAM,Namibia,False,False,True,1974-01-01 00:00:00,
-155,NRU,Nauru,False,False,True,1974-01-01 00:00:00,
+155,NRU,Naoero,False,False,True,1974-01-01 00:00:00,
 156,NPL,Nepal,False,False,True,2020-12-15 00:00:00,
 157,NLD,Netherlands (Kingdom of the),False,False,True,2023-03-10 00:00:00,
 158,NCL,New Caledonia,False,False,True,1974-01-01 00:00:00,
