@@ -30381,8 +30381,8 @@ ZMB,Zambia,ZM109,Southern,ZM109009,Namwala,,,2,food-security-nutrition-poverty,f
 ZMB,Zambia,ZM109,Southern,ZM109010,Pemba,,,2,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
 ZMB,Zambia,ZM109,Southern,ZM109011,Siavonga,,,2,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
 ZMB,Zambia,ZM109,Southern,ZM109012,Sinazongwe,,,2,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
-ZMB,Zambia,ZM109,Southern,,,,,1,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
 ZMB,Zambia,ZM109,Southern,ZM109-XXX,UNSPECIFIED,,,2,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
+ZMB,Zambia,ZM109,Southern,,,,,1,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
 ZMB,Zambia,ZM109,Southern,ZM109013,Zimba,,,2,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
 ZMB,Zambia,,,,,,,0,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
 ZMB,Zambia,ZM110,Western,ZM110001,Kalabo,,,2,food-security-nutrition-poverty,food-security,2026-10-12 01:49:09.857101
@@ -30461,15 +30461,15 @@ AGO,Angola,AO16,Namibe,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-1
 AGO,Angola,AO17,Uíge,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 AGO,Angola,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 AGO,Angola,AO18,Zaire,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-ARG,Argentina,ARG-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 ARG,Argentina,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+ARG,Argentina,ARG-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 ARM,Armenia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 AZE,Azerbaijan,AZ30800001,Absheron,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 AZE,Azerbaijan,AZ00000003,Baku,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 AZE,Azerbaijan,AZ80201002,Lankaran,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 AZE,Azerbaijan,AZ10400002,Nakhchivan,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-AZE,Azerbaijan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 AZE,Azerbaijan,AZE-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+AZE,Azerbaijan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BGD,Bangladesh,BD10,Barishal,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BGD,Bangladesh,BD20,Chattogram,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BGD,Bangladesh,BD30,Dhaka,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30484,8 +30484,8 @@ BLZ,Belize,BZ03,Corozal,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-
 BLZ,Belize,BZ04,Orange Walk,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BLZ,Belize,BZ05,Stann Creek,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BLZ,Belize,BZ06,Toledo,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-BLZ,Belize,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BLZ,Belize,BLZ-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+BLZ,Belize,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BEN,Benin,BJ01,Alibori,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BEN,Benin,BJ02,Atacora,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BEN,Benin,BJ03,Atlantique,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30532,16 +30532,16 @@ BOL,Bolivia (Plurinational State of),BO07,Santa Cruz,,,,,1,food-security-nutriti
 BOL,Bolivia (Plurinational State of),BO06,Tarija,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BOL,Bolivia (Plurinational State of),,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BIH,Bosnia and Herzegovina,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-BWA,Botswana,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BWA,Botswana,BWA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-BRA,Brazil,BRA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+BWA,Botswana,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BRA,Brazil,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+BRA,Brazil,BRA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BFA,Burkina Faso,BFA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BFA,Burkina Faso,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BDI,Burundi,BI2,Bujumbura,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BDI,Burundi,BI5,Gitega,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-BDI,Burundi,BDI-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 BDI,Burundi,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+BDI,Burundi,BDI-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KHM,Cambodia,KH01,Banteay Meanchey,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KHM,Cambodia,KH02,Battambang,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KHM,Cambodia,KH03,Kampong Cham,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30567,8 +30567,8 @@ KHM,Cambodia,KH19,Stung Treng,,,,,1,food-security-nutrition-poverty,poverty-rate
 KHM,Cambodia,KH20,Svay Rieng,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KHM,Cambodia,KH21,Takeo,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KHM,Cambodia,KH25,Tboung Khmum,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-KHM,Cambodia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KHM,Cambodia,KHM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+KHM,Cambodia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CMR,Cameroon,CM001,Adamawa,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CMR,Cameroon,CM002,Centre,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CMR,Cameroon,CM003,East,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30578,12 +30578,12 @@ CMR,Cameroon,CM006,North,,,,,1,food-security-nutrition-poverty,poverty-rate,2026
 CMR,Cameroon,CM007,North-West,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CMR,Cameroon,CM009,South,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CMR,Cameroon,CM010,South-West,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-CMR,Cameroon,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CMR,Cameroon,CMR-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+CMR,Cameroon,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CMR,Cameroon,CM008,West,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CAF,Central African Republic,CF71,Bangui,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-CAF,Central African Republic,CAF-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CAF,Central African Republic,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+CAF,Central African Republic,CAF-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TCD,Chad,TCD19,BARH EL GAZEL,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TCD,Chad,TCD01,BATHA,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TCD,Chad,TCD02,BORKOU,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30605,15 +30605,15 @@ TCD,Chad,TCD14,OUADDAÏ,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-
 TCD,Chad,TCD15,SALAMAT,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TCD,Chad,TCD21,SILA,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TCD,Chad,TCD16,TANDJILÉ,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-TCD,Chad,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TCD,Chad,TCD-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+TCD,Chad,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TCD,Chad,TCD17,WADI FIRA,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-CHN,China,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 CHN,China,CHN-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+CHN,China,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COL,Colombia,CO11,"Bogotá, D.C.",,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COL,Colombia,CO68,Santander,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-COL,Colombia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COL,Colombia,COL-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+COL,Colombia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COM,Comoros,KM2,Grande Comore (Ngazidja),,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COM,Comoros,KM3,Mohéli (Mwali),,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COM,Comoros,COM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30673,8 +30673,8 @@ COD,Democratic Republic of the Congo,CD42,Sud-Ubangi,,,,,1,food-security-nutriti
 COD,Democratic Republic of the Congo,CD74,Tanganyika,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD51,Tshopo,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD45,Tshuapa,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-COD,Democratic Republic of the Congo,COD-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+COD,Democratic Republic of the Congo,COD-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 DOM,Dominican Republic,DO01,Región Cibao Nordeste,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 DOM,Dominican Republic,DO02,Región Cibao Noroeste,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 DOM,Dominican Republic,DO03,Región Cibao Norte,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30685,8 +30685,8 @@ DOM,Dominican Republic,DO07,Región Higuamo,,,,,1,food-security-nutrition-povert
 DOM,Dominican Republic,DO08,Región Ozama,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 DOM,Dominican Republic,DO09,Región Valdesia,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 DOM,Dominican Republic,DO10,Región Yuma,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-DOM,Dominican Republic,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 DOM,Dominican Republic,DOM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+DOM,Dominican Republic,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 ECU,Ecuador,EC01,Azuay,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 ECU,Ecuador,EC02,Bolivar,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 ECU,Ecuador,EC03,Cañar,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30850,8 +30850,8 @@ GNB,Guinea-Bissau,GW07,Quinara,,,,,1,food-security-nutrition-poverty,poverty-rat
 GNB,Guinea-Bissau,GW09,Tombali,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 GNB,Guinea-Bissau,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 GNB,Guinea-Bissau,GNB-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-GUY,Guyana,GUY-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 GUY,Guyana,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+GUY,Guyana,GUY-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HTI,Haiti,HT05,Artibonite,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HTI,Haiti,HT06,Centre,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HTI,Haiti,HT08,Grande'Anse,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30878,12 +30878,12 @@ HND,Honduras,HN13,Lempira,,,,,1,food-security-nutrition-poverty,poverty-rate,202
 HND,Honduras,HN14,Ocotepeque,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HND,Honduras,HN15,Olancho,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HND,Honduras,HN16,Santa Barbara,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-HND,Honduras,HND-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HND,Honduras,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+HND,Honduras,HND-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HND,Honduras,HN17,Valle,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 HND,Honduras,HN18,Yoro,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-IND,India,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IND,India,IND-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+IND,India,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IDN,Indonesia,ID11,Aceh,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IDN,Indonesia,ID51,Bali,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IDN,Indonesia,ID36,Banten,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30900,8 +30900,8 @@ IDN,Indonesia,ID82,Maluku Utara,,,,,1,food-security-nutrition-poverty,poverty-ra
 IDN,Indonesia,ID94,Papua,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IDN,Indonesia,ID91,Papua Barat,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IDN,Indonesia,ID14,Riau,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-IDN,Indonesia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IDN,Indonesia,IDN-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+IDN,Indonesia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IRQ,Iraq,IQG01,Al-Anbar,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IRQ,Iraq,IQG02,Al-Basrah,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 IRQ,Iraq,IQG03,Al-Muthanna,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30937,8 +30937,8 @@ JAM,Jamaica,JM13,Trelawny,,,,,1,food-security-nutrition-poverty,poverty-rate,202
 JAM,Jamaica,JAM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 JAM,Jamaica,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 JAM,Jamaica,JM14,Westmoreland,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-JOR,Jordan,JOR-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 JOR,Jordan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+JOR,Jordan,JOR-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KAZ,Kazakhstan,KAZ-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KAZ,Kazakhstan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KEN,Kenya,KE030,Baringo,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -30985,8 +30985,8 @@ KEN,Kenya,KE013,Tharaka-Nithi,,,,,1,food-security-nutrition-poverty,poverty-rate
 KEN,Kenya,KE026,Trans Nzoia,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KEN,Kenya,KE023,Turkana,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KEN,Kenya,KE027,Uasin Gishu,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-KEN,Kenya,KEN-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KEN,Kenya,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+KEN,Kenya,KEN-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KEN,Kenya,KE038,Vihiga,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KEN,Kenya,KE008,Wajir,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 KEN,Kenya,KE024,West Pokot,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31021,8 +31021,8 @@ LAO,Lao People's Democratic Republic,LA10,Vientiane,,,,,1,food-security-nutritio
 LAO,Lao People's Democratic Republic,LA01,Vientiane Capital,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LAO,Lao People's Democratic Republic,LA18,Xaisomboon,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LAO,Lao People's Democratic Republic,LA09,Xiengkhouang,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-LSO,Lesotho,LSO-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LSO,Lesotho,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+LSO,Lesotho,LSO-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LBR,Liberia,LR01,Bomi,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LBR,Liberia,LR02,Bong,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LBR,Liberia,LR03,Gbarpolu,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31038,10 +31038,10 @@ LBR,Liberia,LR12,Nimba,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-1
 LBR,Liberia,LR14,Rivercess,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LBR,Liberia,LR13,River Gee,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LBR,Liberia,LR15,Sinoe,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-LBR,Liberia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LBR,Liberia,LBR-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-LBY,Libya,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+LBR,Liberia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 LBY,Libya,LBY-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+LBY,Libya,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDG,Madagascar,MG33,Alaotra Mangoro,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDG,Madagascar,MG22,Amoron I Mania,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDG,Madagascar,MG11,Analamanga,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31065,8 +31065,8 @@ MDG,Madagascar,MG42,Sofia,,,,,1,food-security-nutrition-poverty,poverty-rate,202
 MDG,Madagascar,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDG,Madagascar,MDG-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDG,Madagascar,MG12,Vakinankaratra,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-MWI,Malawi,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MWI,Malawi,MWI-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+MWI,Malawi,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDV,Maldives,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MLI,Mali,ML20,Bamako,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MLI,Mali,ML07,Gao,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31092,16 +31092,16 @@ MRT,Mauritania,MR15,Nouakchott Sud,,,,,1,food-security-nutrition-poverty,poverty
 MRT,Mauritania,MR09,Tagant,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MRT,Mauritania,MR11,Tiris Zemmour,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MRT,Mauritania,MR06,Trarza,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-MRT,Mauritania,MRT-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MRT,Mauritania,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+MRT,Mauritania,MRT-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MEX,Mexico,MX11,Guanajuato,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MEX,Mexico,MX25,Sinaloa,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-MEX,Mexico,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MEX,Mexico,MEX-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+MEX,Mexico,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MNG,Mongolia,MN62,Ovorkhangai,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MNG,Mongolia,MN11,Ulaanbaatar,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-MNG,Mongolia,MNG-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MNG,Mongolia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+MNG,Mongolia,MNG-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MNE,Montenegro,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MAR,Morocco,MA001,Beni Mellal Khenifra,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MAR,Morocco,MA002,Casablanca Settat,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31181,8 +31181,8 @@ NIC,Nicaragua,NI40,Matagalpa,,,,,1,food-security-nutrition-poverty,poverty-rate,
 NIC,Nicaragua,NI05,Nueva Segovia,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 NIC,Nicaragua,NI85,Río San Juan,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 NIC,Nicaragua,NI80,Rivas,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-NIC,Nicaragua,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 NIC,Nicaragua,NIC-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+NIC,Nicaragua,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 NER,Niger,NE001,Agadez,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 NER,Niger,NE002,Diffa,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 NER,Niger,NE003,Dosso,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31262,8 +31262,8 @@ PNG,Papua New Guinea,PG09,Western Highlands Province,,,,,1,food-security-nutriti
 PNG,Papua New Guinea,PG01,Western Province,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 PNG,Papua New Guinea,PG19,West New Britain Province,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 PNG,Papua New Guinea,PG15,West Sepik (Sandaun) Province,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-PRY,Paraguay,PRY-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 PRY,Paraguay,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+PRY,Paraguay,PRY-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 PER,Peru,PE01,Amazonas,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 PER,Peru,PE02,Ancash,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 PER,Peru,PE03,Apurimac,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31309,17 +31309,17 @@ PHL,Philippines,PH12,Region XII (Soccsksargen),,,,,1,food-security-nutrition-pov
 PHL,Philippines,PH10,Region X (Northern Mindanao),,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 PHL,Philippines,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDA,Republic of Moldova,MD010,Chisinau,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-MDA,Republic of Moldova,MDA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 MDA,Republic of Moldova,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-RWA,Rwanda,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+MDA,Republic of Moldova,MDA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 RWA,Rwanda,RWA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-WSM,Samoa,WSM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+RWA,Rwanda,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 WSM,Samoa,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+WSM,Samoa,WSM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 STP,Sao Tome and Principe,ST21,Água Grande,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 STP,Sao Tome and Principe,ST26,Mé-Zóchi,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 STP,Sao Tome and Principe,ST11,Príncipe (Autonomous Region),,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-STP,Sao Tome and Principe,STP-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 STP,Sao Tome and Principe,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+STP,Sao Tome and Principe,STP-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SEN,Senegal,SN01,Dakar,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SEN,Senegal,SN02,Diourbel,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SEN,Senegal,SN03,Fatick,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31335,8 +31335,8 @@ SEN,Senegal,SN12,Tambacounda,,,,,1,food-security-nutrition-poverty,poverty-rate,
 SEN,Senegal,SN13,Thiès,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SEN,Senegal,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SEN,Senegal,SN14,Ziguinchor,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-SRB,Serbia,SRB-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SRB,Serbia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+SRB,Serbia,SRB-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SYC,Seychelles,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SLE,Sierra Leone,SL01,Eastern,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 SLE,Sierra Leone,SL02,Northern,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31382,8 +31382,8 @@ SUR,Suriname,SUR-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-r
 TJK,Tajikistan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TJK,Tajikistan,TJK-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 THA,Thailand,TH10,Bangkok,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-THA,Thailand,THA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 THA,Thailand,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+THA,Thailand,THA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TLS,Timor-Leste,TL02,Aileu,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TLS,Timor-Leste,TL01,Ainaro,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TLS,Timor-Leste,TL03,Baucau,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31417,8 +31417,8 @@ TUN,Tunisia,TN5,South East,,,,,1,food-security-nutrition-poverty,poverty-rate,20
 TUN,Tunisia,TN6,South West,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TUN,Tunisia,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TUN,Tunisia,TUN-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-TKM,Turkmenistan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TKM,Turkmenistan,TKM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+TKM,Turkmenistan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TUV,Tuvalu,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 UGA,Uganda,UG1,Central,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 UGA,Uganda,UG2,Eastern,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31428,8 +31428,8 @@ UGA,Uganda,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49
 UGA,Uganda,UG4,Western,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 UKR,Ukraine,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 UKR,Ukraine,UKR-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-TZA,United Republic of Tanzania,TZA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 TZA,United Republic of Tanzania,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+TZA,United Republic of Tanzania,TZA-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 UZB,Uzbekistan,UZB-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 UZB,Uzbekistan,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 VUT,Vanuatu,VU04,Malampa,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -31439,8 +31439,8 @@ VUT,Vanuatu,VU05,Shefa,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-1
 VUT,Vanuatu,VU06,Tafea,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 VUT,Vanuatu,VU01,Torba,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 VUT,Vanuatu,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
-VNM,Viet Nam,VNM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 VNM,Viet Nam,,,,,,,0,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
+VNM,Viet Nam,VNM-XXX,UNSPECIFIED,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 YEM,Yemen,YE12,Abyan,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 YEM,Yemen,YE30,Ad Dali',,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
 YEM,Yemen,YE24,Aden,,,,,1,food-security-nutrition-poverty,poverty-rate,2026-10-12 01:49:09.857101
@@ -33819,8 +33819,8 @@ COD,Democratic Republic of the Congo,CD53,Haut-Uele,CD5305,Dungu,,,2,geography-i
 COD,Democratic Republic of the Congo,CD53,Haut-Uele,CD5307,Faradje,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD53,Haut-Uele,CD5303,Niangara,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD53,Haut-Uele,CD5302,Rungu,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-COD,Democratic Republic of the Congo,CD53,Haut-Uele,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD53,Haut-Uele,CD53-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+COD,Democratic Republic of the Congo,CD53,Haut-Uele,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD53,Haut-Uele,CD5311,Wamba,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD53,Haut-Uele,CD5309,Watsa,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD54,Ituri,CD5409,Aru,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -33969,8 +33969,8 @@ COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7409,Kongolo,,,2,geograph
 COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7406,Manono,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7404,Moba,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7410,Nyunzu,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-COD,Democratic Republic of the Congo,CD74,Tanganyika,CD74-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD74,Tanganyika,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+COD,Democratic Republic of the Congo,CD74,Tanganyika,CD74-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD51,Tshopo,CD5111,Bafwasende,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD51,Tshopo,CD5110,Banalia,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 COD,Democratic Republic of the Congo,CD51,Tshopo,CD5109,Basoko,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -34622,8 +34622,8 @@ GHA,Ghana,GH15,Western,GH1506,Nzema East,,,2,geography-infrastructure,baseline-p
 GHA,Ghana,GH15,Western,GH1507,Prestea/Huni Valley,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 GHA,Ghana,GH15,Western,GH1509,Shama,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 GHA,Ghana,GH15,Western,GH1510,Tarkwa Nsuaem,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-GHA,Ghana,GH15,Western,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 GHA,Ghana,GH15,Western,GH15-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+GHA,Ghana,GH15,Western,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 GHA,Ghana,GH15,Western,GH1511,Wassa Amenfi Central,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 GHA,Ghana,GH15,Western,GH1512,Wassa Amenfi East,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 GHA,Ghana,GH15,Western,GH1513,Wassa Amenfi West,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -36648,8 +36648,8 @@ KGZ,Kyrgyzstan,KG08000000000,Chui,,,,,1,geography-infrastructure,baseline-popula
 KGZ,Kyrgyzstan,KG08000000000,Chui,KG08000000000-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 KGZ,Kyrgyzstan,KG02000000000,Issyk-Kul,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 KGZ,Kyrgyzstan,KG02000000000,Issyk-Kul,KG02000000000-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-KGZ,Kyrgyzstan,KG03000000000,Jalal-Abad,KG03000000000-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 KGZ,Kyrgyzstan,KG03000000000,Jalal-Abad,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+KGZ,Kyrgyzstan,KG03000000000,Jalal-Abad,KG03000000000-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 KGZ,Kyrgyzstan,KG04000000000,Naryn,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 KGZ,Kyrgyzstan,KG04000000000,Naryn,KG04000000000-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 KGZ,Kyrgyzstan,KG06000000000,Osh,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -37703,8 +37703,8 @@ MEX,Mexico,MX12,Guerrero,MX12064,Tlalchapa,,,2,geography-infrastructure,baseline
 MEX,Mexico,MX12,Guerrero,MX12065,Tlalixtaquilla de Maldonado,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MEX,Mexico,MX12,Guerrero,MX12066,Tlapa de Comonfort,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MEX,Mexico,MX12,Guerrero,MX12067,Tlapehuala,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-MEX,Mexico,MX12,Guerrero,MX12-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MEX,Mexico,MX12,Guerrero,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+MEX,Mexico,MX12,Guerrero,MX12-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MEX,Mexico,MX12,Guerrero,MX12069,Xalpatláhuac,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MEX,Mexico,MX12,Guerrero,MX12070,Xochihuehuetlán,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MEX,Mexico,MX12,Guerrero,MX12071,Xochistlahuaca,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -40110,8 +40110,8 @@ MNG,Mongolia,MN81,Zavkhan,,,,,1,geography-infrastructure,baseline-population,202
 MNG,Mongolia,MN81,Zavkhan,MN8152,Urgamal,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MNG,Mongolia,MN81,Zavkhan,MN8170,Yaruu,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MNG,Mongolia,MN81,Zavkhan,MN8119,Zavxanmandal,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-MSR,Montserrat,MSR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MSR,Montserrat,,,,,,,0,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+MSR,Montserrat,MSR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001001,Province d Azilal,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001002,Province de Beni Mellal,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001003,Province de Fquih Ben Saleh,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -40165,8 +40165,8 @@ MOZ,Mozambique,MZ11,Cidade de Maputo,MZ1105,KaMubukwana,,,2,geography-infrastruc
 MOZ,Mozambique,MZ11,Cidade de Maputo,MZ1107,KaNyaka,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MOZ,Mozambique,MZ11,Cidade de Maputo,MZ1106,KaTembe,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MOZ,Mozambique,MZ11,Cidade de Maputo,MZ1102,Nhlamankulo,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-MOZ,Mozambique,MZ11,Cidade de Maputo,MZ11-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MOZ,Mozambique,MZ11,Cidade de Maputo,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+MOZ,Mozambique,MZ11,Cidade de Maputo,MZ11-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MOZ,Mozambique,MZ09,Gaza,MZ0902,Bilene,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MOZ,Mozambique,MZ09,Gaza,MZ0903,Chibuto,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 MOZ,Mozambique,MZ09,Gaza,MZ0904,Chicualacuala,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -40796,8 +40796,8 @@ PAK,Pakistan,PK2,Balochistan,PK221,Musakhel,,,2,geography-infrastructure,baselin
 PAK,Pakistan,PK2,Balochistan,PK222,Nasirabad,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK2,Balochistan,PK233,Shaheed Sikandarabad,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK2,Balochistan,PK229,Sohbatpur,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-PAK,Pakistan,PK2,Balochistan,PK2-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK2,Balochistan,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+PAK,Pakistan,PK2,Balochistan,PK2-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK2,Balochistan,PK230,Washuk,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK2,Balochistan,PK231,Zhob,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK2,Balochistan,PK232,Ziarat,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -40867,8 +40867,8 @@ PAK,Pakistan,PK7,Sindh,PK725,Tando Muhammad Khan,,,2,geography-infrastructure,ba
 PAK,Pakistan,PK7,Sindh,PK726,Tharparkar,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK7,Sindh,PK727,Thatta,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK7,Sindh,PK728,Umer Kot,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-PAK,Pakistan,PK7,Sindh,PK7-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK7,Sindh,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+PAK,Pakistan,PK7,Sindh,PK7-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,PK7,Sindh,PK729,West Karachi,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PAK,Pakistan,,,,,,,0,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PLW,Palau,,,,,,,0,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -41035,12 +41035,12 @@ PHL,Philippines,PH02,Region II (Cagayan Valley),,,,,1,geography-infrastructure,b
 PHL,Philippines,PH02,Region II (Cagayan Valley),PH02-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH03,Region III (Central Luzon),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH03,Region III (Central Luzon),PH03-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-PHL,Philippines,PH01,Region I (Ilocos Region),PH01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH01,Region I (Ilocos Region),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+PHL,Philippines,PH01,Region I (Ilocos Region),PH01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH04,Region IV-A (Calabarzon),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH04,Region IV-A (Calabarzon),PH04-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),PH09-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH05,Region V (Bicol Region),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH05,Region V (Bicol Region),PH05-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH07,Region VII (Central Visayas),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -41049,12 +41049,12 @@ PHL,Philippines,PH08,Region VIII (Eastern Visayas),,,,,1,geography-infrastructur
 PHL,Philippines,PH08,Region VIII (Eastern Visayas),PH08-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH06,Region VI (Western Visayas),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH06,Region VI (Western Visayas),PH06-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-PHL,Philippines,PH11,Region XI (Davao Region),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH11,Region XI (Davao Region),PH11-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-PHL,Philippines,PH16,Region XIII (Caraga),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+PHL,Philippines,PH11,Region XI (Davao Region),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH16,Region XIII (Caraga),PH16-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-PHL,Philippines,PH12,Region XII (Soccsksargen),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+PHL,Philippines,PH16,Region XIII (Caraga),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH12,Region XII (Soccsksargen),PH12-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+PHL,Philippines,PH12,Region XII (Soccsksargen),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH10,Region X (Northern Mindanao),PH10-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,PH10,Region X (Northern Mindanao),,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 PHL,Philippines,,,,,,,0,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
@@ -42199,8 +42199,8 @@ SDN,Sudan,SD09,White Nile,SD09046,Rabak,,,2,geography-infrastructure,baseline-po
 SDN,Sudan,SD09,White Nile,SD09048,Tendalti,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 SDN,Sudan,SD09,White Nile,SD09045,Um Rimta,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 SDN,Sudan,SD09,White Nile,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
-SUR,Suriname,SUR-XXX,UNSPECIFIED,SUR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 SUR,Suriname,SUR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
+SUR,Suriname,SUR-XXX,UNSPECIFIED,SUR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 SUR,Suriname,,,,,,,0,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 TJK,Tajikistan,,,,,,,0,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
 TJK,Tajikistan,TJK-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-10-12 01:49:09.857101
