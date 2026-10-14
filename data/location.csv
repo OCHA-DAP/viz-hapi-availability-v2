@@ -97,7 +97,7 @@ id,code,name,has_hrp,in_gho,from_cods,reference_period_start,reference_period_en
 96,HTI,Haiti,True,True,True,1974-01-01 00:00:00,
 97,HMD,Heard Island and McDonald Islands,False,False,True,1974-01-01 00:00:00,
 98,VAT,Holy See,False,False,True,1996-04-03 00:00:00,
-99,HND,Honduras,False,False,True,1974-01-01 00:00:00,
+99,HND,Honduras,False,True,True,1974-01-01 00:00:00,
 100,HKG,"China, Hong Kong Special Administrative Region",False,False,True,1974-01-01 00:00:00,
 101,HUN,Hungary,False,False,True,2012-02-15 00:00:00,
 102,ISL,Iceland,False,False,True,2022-10-20 00:00:00,
